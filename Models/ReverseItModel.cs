@@ -8,5 +8,7 @@ namespace ReverseIt.Models
     public class ReverseItModel
     {
         public string revStr {get; set;}
+
+        public ReverseItModel(){}
     }
 }
