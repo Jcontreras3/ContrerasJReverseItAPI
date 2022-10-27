@@ -20,7 +20,7 @@ namespace ContrerasJReverseItAPI.Controllers
 
         public string ReverseItChallenge(ReverseItModel item)
         {
-              string reverseString = "";
+            string reverseString = "";
             for (int i = item.revStr.Length - 1; i >= 0; i--)
             {
                 reverseString = reverseString + item.revStr.Substring(i, 1);
